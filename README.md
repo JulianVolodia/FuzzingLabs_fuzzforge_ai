@@ -202,6 +202,16 @@ _AI agents automatically analyzing code and providing security insights_
 
 ## 📚 Resources
 
+### Documentation
+
+- 📘 **[CLAUDE.md](CLAUDE.md)** - Comprehensive technical documentation and architecture guide
+- 🚀 **[CRASH_COURSE.md](CRASH_COURSE.md)** - Quick start guide for Windows and cloud deployment
+- 🏗️ **[ARCHITECTURE.md](ARCHITECTURE.md)** - Detailed architecture and design documentation
+- 🔧 **[QUICKSTART_TEMPORAL.md](QUICKSTART_TEMPORAL.md)** - Temporal workflow quick start
+- 🤝 **[CONTRIBUTING.md](CONTRIBUTING.md)** - Contribution guidelines
+
+### Online Resources
+
 - 🌐 [Website](https://fuzzforge.ai)
 - 📖 [Documentation](https://docs.fuzzforge.ai)
 - 💬 [Community Discord](https://discord.gg/8XEX33UUwZ)
