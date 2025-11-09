@@ -12,5 +12,6 @@
 from .file_scanner import FileScanner
 from .dependency_scanner import DependencyScanner
 from .macos_vulnerability_scanner import MacOSVulnerabilityScanner
+from .windows_vulnerability_scanner import WindowsVulnerabilityScanner
 
-__all__ = ["FileScanner", "DependencyScanner", "MacOSVulnerabilityScanner"]
+__all__ = ["FileScanner", "DependencyScanner", "MacOSVulnerabilityScanner", "WindowsVulnerabilityScanner"]
