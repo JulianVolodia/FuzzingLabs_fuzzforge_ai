@@ -96,7 +96,24 @@ The LLM-based detector excels at finding obfuscated and hidden secrets through s
 
 ## 📦 Installation
 
-### Requirements
+### Automated Setup Scripts
+
+**Quick Install (Recommended):**
+
+```bash
+# macOS
+curl -fsSL https://raw.githubusercontent.com/fuzzinglabs/fuzzforge_ai/main/scripts/setup-macos.sh | bash
+
+# Windows (PowerShell as Administrator)
+Invoke-WebRequest -Uri https://raw.githubusercontent.com/fuzzinglabs/fuzzforge_ai/main/scripts/setup-windows.ps1 -OutFile setup-windows.ps1
+powershell -ExecutionPolicy Bypass -File setup-windows.ps1
+```
+
+See [setup-macos.sh](scripts/setup-macos.sh) or [setup-windows.ps1](scripts/setup-windows.ps1) for details.
+
+### Manual Installation
+
+**Requirements:**
 
 **Python 3.11+**
 Python 3.11 or higher is required.
@@ -206,6 +223,7 @@ _AI agents automatically analyzing code and providing security insights_
 
 - 📘 **[CLAUDE.md](CLAUDE.md)** - Comprehensive technical documentation and architecture guide
 - 🚀 **[CRASH_COURSE.md](CRASH_COURSE.md)** - Quick start guide for Windows and cloud deployment
+- 🔐 **[VULNERABILITY_RESEARCH_GUIDE.md](VULNERABILITY_RESEARCH_GUIDE.md)** - Ethical vulnerability research and responsible disclosure
 - 🏗️ **[ARCHITECTURE.md](ARCHITECTURE.md)** - Detailed architecture and design documentation
 - 🔧 **[QUICKSTART_TEMPORAL.md](QUICKSTART_TEMPORAL.md)** - Temporal workflow quick start
 - 🤝 **[CONTRIBUTING.md](CONTRIBUTING.md)** - Contribution guidelines
